@@ -31,7 +31,8 @@ The function will return the hashed password or ``*`` on error.
 ### Checking
 To check a hash password, simply pass the string and stored password to ``check_password()``.
 ```
-$password = 'P7g2zd';    
+$password = 'P7g2zd';
+$hash = $2y$10$DV4jdLVebUX1ishuSSRJF.BDqWKgcvTrbpve0DkPxr.f0rO8ST8Ea    
 if ($this->bcrypt->check_password($password, $hash)) {
     // Password does match stored password.
 } else {
