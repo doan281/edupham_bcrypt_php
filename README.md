@@ -1,4 +1,4 @@
-# edupham_bcrypt_php
+# Edupham Codeigniter - Bcrypt (PHP)
 Bcrypt in PHP for Codeigniter 2x,3x. It can be used to synchronize passwords in Laravel.
 
 ## Installation
